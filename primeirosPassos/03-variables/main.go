@@ -12,12 +12,12 @@ func main() {
 	fmt.Println("1. Nome:", nome, "| Sobrenome:", sobrenome, "| Idade:", idade)
 
 	// 2. Declaração com inferência de tipo (inicialização)
-	var cidade, estado = "Rio de Janeiro", "RJ"
+	var cidade, estado = "São Paulo", "SP"
 	fmt.Println("2. Cidade:", cidade, "| Estado:", estado)
 
 	// 3. Agrupamento de variáveis
 	var (
-		pais      = "Brasil"
+		pais       = "Brasil"
 		continente = "América do Sul"
 	)
 	fmt.Println("3. País:", pais, "| Continente:", continente)
