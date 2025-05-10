@@ -48,9 +48,9 @@ func simulateWork() {
 func main() {
 	fmt.Println("Exemplos de uso do defer:")
 
-	// doDefer()
-	// deferReverseOrder()
-	// deferWithAnonymous()
-	// deferWithPanic()
-	// simulateWork()
+	doDefer()
+	deferReverseOrder()
+	deferWithAnonymous()
+	deferWithPanic()
+	simulateWork()
 }
